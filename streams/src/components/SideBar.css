@@ -1,0 +1,122 @@
+
+.sidebar{
+    height: 100vh;
+    flex: 0.2;
+    background-color: rgba(0, 0, 0, 0.973);
+    color: white;
+    min-width: 15vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Poppins';
+    float: left;
+    flex: 0.2;
+  
+}
+.sidebar{
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    flex: 0.2;
+
+}
+.top-sidebar{
+    display: flex;
+    justify-content: center;
+    margin-right: 2em;
+}
+.title{
+    margin-top: 2em;
+    font-family: 'Vollkhorn';
+    font-style: italic;
+    font-size: 1.9vw;
+    font-weight: 700;
+    background-image:linear-gradient(to right, #a74ac4,  rgba(245, 245, 245, 0.925), rgba(168, 74, 196, 0.562)); color:rgba(0, 0, 0, 0); -webkit-background-clip:text; background-clip:text; 
+    
+}
+.top-sidebar > img{
+    width:8vw;
+}
+
+.line2{
+    border: 1px solid rgba(255, 255, 255, 0.089);
+}
+.sidebar-list{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+
+}
+.sidebar-link{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9em;
+
+    
+}
+.library{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    
+}
+.library > p{
+    font-weight: 700;
+    font-size: 1em;
+
+  }
+.linking{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.644);
+}
+.linking:hover{
+    color: white;
+}
+.icon-color{
+    color: #a74ac4;
+    position: relative;
+    top: 4px;
+    right: 3px;
+}
+.mobile{
+    display: none;
+}
+@media (max-width:750px){
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+    .top-sidebar-mobile{
+        display: flex;
+        margin-top: -2em;
+        justify-content: center;
+        place-items: center;
+        margin-right: 0;
+     
+    }
+    .top-sidebar-mobile > img{
+        margin-right: 0.6em;
+    }
+    .icon-colour-mobile{
+        position: relative;
+        top: 5px;
+        right: 4px;
+
+    }
+    .title-mobile{
+        font-family: 'Vollkhorn';
+        font-style: italic;
+        font-size: 1em;
+        margin-top: 1em;
+        font-weight: 700;
+        background-image:linear-gradient(to right, #a74ac4,  rgba(245, 245, 245, 0.925), rgba(168, 74, 196, 0.562)); color:rgba(0, 0, 0, 0); -webkit-background-clip:text; background-clip:text; 
+        
+    }
+  .linking-mobile{
+    font-size: 1rem;
+  }
+  
+}

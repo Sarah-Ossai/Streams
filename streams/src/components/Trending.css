@@ -1,0 +1,132 @@
+.trending{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    padding-bottom: 100px;
+    background: linear-gradient( to bottom, rgb(32, 14, 37), rgba(0, 0, 0, 0.973 ) )
+}
+.trendingimage{
+   display: flex;
+   align-items: flex-end;
+   padding: 3em;
+   padding: 10px;
+}
+.trendingimage > img{
+    height: 20vw;
+    margin: 0 20px;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.747);
+ }
+ .body_infoText{
+    flex: 1;
+ }
+ .body_infoText > h2{
+    font-size: 48px;
+    margin-bottom: 10px;
+ }
+ .body_infoText > p{
+     font-size: 14px;
+ }
+ .playall{
+    display: flex;
+
+ }
+ .playall > h3{
+    margin-top: 1em;
+ }
+.play_icon{
+    margin: 0.5em;
+    color: rgba(167, 74, 196, 1);
+    cursor: pointer;
+    
+}
+.play_icon:hover{
+    color: rgba(168, 74, 196, 0.815);
+
+    
+}
+.song_flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+.title-icon{
+    flex: 2;
+}
+.artist{
+    flex: 2;
+}
+.duration{
+    flex: 1.4;
+}
+.play:hover{
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+    color: rgba(167, 74, 196, 1);
+}
+.head{
+    margin-right: -4.5em;
+}
+ol.songList {
+    list-style-type: none;
+    margin-left: 0;
+  }
+  
+  ol.songList > li {
+    counter-increment: customlistcounter;
+  }
+  
+  ol.songList > li:before {
+    content: counter(customlistcounter) " ";
+    font-weight: bold;
+    float: left;
+    width: 2em;
+  }
+  
+  ol.songList:first-child {
+    counter-reset: customlistcounter;
+  }
+
+
+
+
+.songList{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    
+    margin: 3em;
+}
+.hide-this{
+    visibility: hidden;
+}
+
+.title-icon{
+    display: flex;
+    gap: 1em;
+
+}
+.titleImage{
+    width: 3vw;
+}
+@media (max-width:750px){
+     .trending{
+        font-size: 0.7em;
+     }
+     .titleImage{
+        width: 5vw;
+     }
+     .body_infoText > h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+     }
+     .head{
+        margin-right: -5.6em;
+        font-size: 1em;
+     }
+     .artist-move{
+        margin-right: -5em;
+     }
+}

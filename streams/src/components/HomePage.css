@@ -1,0 +1,186 @@
+.wrapper{
+    width: 100%;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .homepage{
+      color: white;
+      background: linear-gradient( to bottom, rgb(32, 14, 37), rgba(0, 0, 0, 0.973 ) );
+      padding-bottom: 100px;
+      display: flex;
+      flex-direction: column;
+      gap: 3em;
+      
+  }
+  #top{
+    display: grid;
+    place-items: center;
+    margin-bottom: 5em;
+  }
+  .top-image{
+      background-size: cover;
+      border-radius: 10px;
+      width: 80vw;
+      height: 65vh;
+      box-shadow: 1px 1px 2px 7px rgba(109, 109, 109, 0.336);
+      max-width: 1000px;
+      background-image: url(https://pan-african-music.com/wp-content/uploads/2021/09/ruger-insta-2-1.jpeg);
+  }
+.top-image > h1{
+  font-size: 6em;
+}
+.top-image > h3{
+  font-size: 4em;
+}
+  .image-text{
+    background-image:linear-gradient(to right, rgba(167, 74, 196, 1),  rgba(245, 245, 245, 0.925), white, rgba(168, 74, 196, 0.562)); color:rgba(0, 0, 0, 0); -webkit-background-clip:text; background-clip:text; 
+    
+  }
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+    .songs{
+      display: flex;
+      flex-direction: column;
+      gap: 8em;
+
+    }
+    .flex{
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+    }
+
+    .flex img{
+      width: 8vw;
+      border-radius: 4px;
+      margin-top: 1em;
+      margin-bottom: 1.5em;
+      min-height: 15vh;
+      object-fit: auto;
+      border: 1px solid white;
+    }
+  
+    .firstFlex, .secondFlex, .thirdFlex, .forthFlex, .fifthFlex{
+      background-color: rgba(53, 50, 50, 0.39);
+      padding: 1.5em;
+      margin-top: 1em;
+      padding-bottom: 2em;
+      border-radius: 8px;
+      text-align: center;
+      cursor: pointer;
+      width: 12.5vw;
+      box-shadow: 0px 0px 2px 1.5px rgba(128, 128, 128, 0.301);
+    }
+  .firstFlex:hover{
+    transition: transform 0.2s ease-out;
+    transform: scale(1.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.336);
+  }
+  .secondFlex:hover{
+    transition: transform 0.2s ease-out;
+    transform: scale(1.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.336);
+  }
+  .thirdFlex:hover{
+    transition: transform 0.2s ease-out;
+    transform: scale(1.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.336);
+  }
+  .forthFlex:hover{
+    transition: transform 0.2s ease-out;
+    transform: scale(1.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.336);
+  }
+  .fifthFlex:hover{
+    transition: transform 0.2s ease-out;
+    transform: scale(1.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.336);
+  }
+  .firstFlex >h1{
+    font-size: 1em;
+  }
+  .secondFlex >h1{
+    font-size: 1em;
+  }
+  .thirdFlex >h1{
+    font-size: 1em;
+  }
+  .forthFlex >h1{
+    font-size: 1em;
+  }
+  .fifthFlex >h1{
+    font-size: 1em;
+  }
+  .firstFlex >h2{
+    font-size: 1em;
+  }
+  .secondFlex >h2{
+    font-size: 1em;
+  }
+  .thirdFlex >h2{
+    font-size: 1em;
+  }
+  .forthFlex >h2{
+    font-size: 1em;
+  }
+  .fifthFlex >h2{
+    font-size: 1em;
+  }
+  .firstFlex >h3{
+    font-size: 0.7em;
+  }
+  .secondFlex >h3{
+    font-size: 0.7em;
+  }
+  .thirdFlex >h3{
+    font-size: 0.7em;
+  }
+  .forthFlex >h3{
+    font-size: 0.7em;
+  }
+  .fifthFlex >h3{
+    font-size: 0.7em;
+  }
+  
+  @media (max-width: 750px){
+    .firstFlex, .secondFlex, .thirdFlex, .forthFlex, .fifthFlex{
+    
+      padding-bottom: 6em;
+      border-radius: 8px;
+      text-align: center;
+      cursor: pointer;
+      width: 30vw;
+      box-shadow: 0px 0px 2px 1.5px rgba(128, 128, 128, 0.301);
+    }
+    .flex img{
+      width: 25vw;
+    }
+    .flex{
+      font-size: 0.7em;
+      padding-top: 2em;
+      padding-bottom: 2em;
+    }
+  }
+  @media (max-width:750px){
+    .desktop{
+      display: none;
+    }
+  }

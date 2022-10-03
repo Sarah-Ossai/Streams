@@ -1,0 +1,53 @@
+
+  .contact{
+    background-color: rgb(7, 7, 7);
+    color: white;
+      display: flex;
+      justify-content: space-around;
+      padding-top:3em ;
+      line-height: 2;
+     padding-bottom: 10em;
+    
+    
+    }
+    .contact-icons{
+        display: flex;
+        gap: 1em;
+    }
+    .browse>a, .contact-icons  a {
+        color: rgb(192, 187, 187);
+        text-decoration: none;
+    }
+    .browse > a:hover, .contact-icons  a:hover{
+        transition: transform 0.2s ease-in-out;
+        transform: scale(1.2) !important;
+        color: rgba(167, 74, 196, 1);
+    }
+
+    .logo img{
+      width: 6vw;
+    }
+   .about  a {
+      color: rgb(168, 161, 161);
+      text-decoration: none;
+  }
+  .about  a:hover{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+    color: rgba(167, 74, 196, 1);
+}
+@media (max-width:750px){
+  .contact-mobile{
+    display: flex;
+    font-size: 1.06rem;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+  }
+.desktop{
+  display: none;
+}
+.browse{
+  line-height: 1;
+}
+}

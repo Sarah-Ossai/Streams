@@ -1,0 +1,25 @@
+.login{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 2em;
+    padding: 30px;
+    height: 100vh;
+    position: sticky;
+    background: linear-gradient(to bottom, rgb(180, 178, 178), rgba(167, 74, 196, 1));
+}
+
+#login-btn_btn{
+    background-color: #4c2957;
+    border: none;
+    color: whitesmoke;
+    padding: 1em;
+    width: 31vw;
+    font-weight: 700;
+    cursor: pointer;
+}
+#login-btn_btn:hover{
+    background-color: #5d2e6b;
+    transition-duration: 0.2s;
+}

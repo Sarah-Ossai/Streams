@@ -1,0 +1,10 @@
+.favorite{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 100vh;
+    position: sticky;
+    background: linear-gradient( to bottom, rgb(32, 14, 37), rgba(0, 0, 0, 0.973 ) );
+    text-align: center;
+}

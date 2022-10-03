@@ -1,0 +1,63 @@
+
+.demo{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-bottom: 100px;
+    background: linear-gradient( to bottom, rgb(32, 14, 37), rgba(0, 0, 0, 0.973 ) )
+}
+.cont{
+    padding: 40px;
+}
+.top_bg{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 8em;
+
+}
+.image_bg{
+    border-radius: 15px;
+    border: 7px solid grey;
+    background-color: grey;
+    width: 70vw;
+    height:60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://guardian.ng/wp-content/uploads/2022/01/Arya-Starr-e1641117789349-1424x802.jpg);
+}
+.image_bg > h1{
+    width: 100%;
+    font-size: 4em;
+    background-image: linear-gradient(to right, black, rgb(49, 44, 44));
+    font-style: italic;
+    text-align: center;
+}
+.aboutus{
+    padding: 3em;
+    font-size: 1.3em;
+    line-height: 1.6;
+}  
+#btn-signup{
+    padding: 0.6em;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.faq{
+    padding: 4em;
+   text-align: left;
+}
+.flex-mobile{
+    display: flex;
+    gap: 7em;
+}
+@media (max-width:750px){
+.top_bg{
+    gap: 2em;
+    font-size: 0.7em;
+}
+.image_bg{
+    width: 80vw;
+}
+}

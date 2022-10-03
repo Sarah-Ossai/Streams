@@ -1,0 +1,60 @@
+.genre{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    padding-bottom: 100px;
+    background: linear-gradient( to bottom, rgb(32, 14, 37), rgba(0, 0, 0, 0.973 ) )
+}
+.genre_body{
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    place-items: center;
+}
+.genre_list{
+    display: flex;
+    gap: 3em;
+}
+.genre_list_item{
+    background-color: rgb(44, 36, 46);
+    width: 20vw;
+    height: 30vh;
+    text-align: center;
+}
+.first_genre{
+    background-image: url(https://tinyurl.com/5yamupvu);
+    background-size: cover;
+}
+.second_genre{
+    background-image: url(https://tinyurl.com/2p8e26tz);
+    background-size: cover;
+}
+.third_genre{
+    background-image: url(https://tinyurl.com/yw6s4h44);
+    background-size: cover;
+}
+.forth_genre{
+    background-image: url(https://i.ytimg.com/vi/8qSgcI-0Rig/maxresdefault.jpg);
+    background-size: cover;
+}
+.fifth_genre{
+    background-image: url(https://tinyurl.com/2nkjfyax);
+    background-size: cover;
+}
+.sixth_genre{
+    background-image: url(https://wallpaperaccess.com/full/3302166.jpg);
+    background-size: cover;
+}
+.seventh_genre{
+    background-image: url(https://tinyurl.com/2p9c4988);
+    background-size: cover;
+}
+.eighteth_genre{
+    background-image: url(https://tinyurl.com/mr3jcpuj);
+    background-size: cover;
+}
+.nineth_genre{
+    background-image: url(https://tinyurl.com/2hzwhr57);
+    background-size: cover;
+}
